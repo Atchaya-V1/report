@@ -30,7 +30,7 @@ from reportlab.lib import colors
 def read_excel(file_path):
     try:
         # Load the Excel data into a pandas DataFrame
-        data = pd.read_excel(file_path)
+        data = pd.read_excel(student_records.xlsx)
         
         # Check if the required columns are present
         required_columns = {"Student ID", "Name", "Subject", "Score"}
