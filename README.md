@@ -42,12 +42,13 @@ python report_card_generator.py
 For each student, a PDF file named report_card_<Student ID>.pdf will be created in the same directory.
 ## Example Input and Output
 Input (Excel File: student_scores.xlsx)
-Student ID	Name	Subject	Score
-101	John Doe	Mathematics	85
-101	John Doe	Science	90
-102	Jane Roe	Mathematics	95
-102	Jane Roe	Science	88
-Output (PDF Report Card)
+Student ID |	Name	 |Subject    	|Score
+--------------------------------------
+101	       | John Doe|	Mathematics|	85
+101	       |John Doe |Science	     |  90
+102	       |Jane Roe |	Mathematics|	95
+102        |Jane Roe |	Science    |	88
+# Output (PDF Report Card)
 For John Doe:
 
 Total Score: 175
@@ -63,7 +64,7 @@ Subject-wise Scores:
 Mathematics: 95
 Science: 88
 
-##File Structure
+## File Structure
 
 bash
 Copy
@@ -73,6 +74,7 @@ Edit
 ├── student_scores.xlsx  # Input Excel file
 ├── report_card_generator.py  # Python script
 ├── report_card_<StudentID>.pdf  # Generated PDFs
+
 ## Error Handling
 Missing Columns: If the Excel file is missing required columns, the script will notify you and terminate.
 File Not Found: If the Excel file path is incorrect, an error message will be displayed.
