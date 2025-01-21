@@ -68,7 +68,7 @@ Science: 88
 bash
 Copy
 Edit
-project_directory/
+``` project_directory/
 │
 ├── student_scores.xlsx  # Input Excel file
 ├── report_card_generator.py  # Python script
