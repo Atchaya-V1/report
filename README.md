@@ -40,16 +40,6 @@ python report_card_generator.py
 ##Generated PDFs:
 
 For each student, a PDF file named report_card_<Student ID>.pdf will be created in the same directory.
-## Example Input and Output
-Input (Excel File: student_scores.xlsx)
-Student ID |	Name	 |Subject    	|Score
---------------------------------------
-101	       | John Doe|	Mathematics|	85
-101	       |John Doe |Science	     |  90
-102	       |Jane Roe |	Mathematics|	95
-102        |Jane Roe |	Science    |	88
-# Output (PDF Report Card)
-For John Doe:
 
 Total Score: 175
 Average Score: 87.5
